@@ -10,7 +10,7 @@ const getBudgets = () => {
   if (process.env.GITHUB_WORKSPACE) {
     return fs.readJSONSync(process.env.GITHUB_WORKSPACE, "./github/lighthouse-budgets.json");
   } else {
-    return fs.readJSONSync(path.join(__dirname, "./config/budgets.json"));
+    return fs.readJSONSync(path.join(__dirname, "./config/lighthouse.json"));
   }
 };
 
@@ -19,7 +19,17 @@ function launchChromeAndRunLighthouse(url, opts, config = null) {
     opts.port = chrome.port;
     opts.output = "json";
 
-    const budgets = getBudgets();
+    const { budgets, isExample } = getBudgets();
+
+    if (isExample) {
+      console.log(`
+-------
+Using example configuration for budgets. 
+You can configure your own budgets, read the documentation for more information.
+https://github.com/boyney123/lighthouse-budgets
+-------
+      `);
+    }
 
     const test = {
       extends: "lighthouse:full",
