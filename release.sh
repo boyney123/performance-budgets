@@ -7,11 +7,10 @@ IMAGE=lighthouse-budgets
 # run build
 docker build -t $USERNAME/$IMAGE:latest .
 # tag it
-# git add -A
-# git commit -m "version $version"
-# git tag -a "$version" -m "version $version"
-# git push
-# git push --tags
+git tag -a "$1" -m "version $1"
+git push
+git push --tags
+
 docker tag $USERNAME/$IMAGE:latest $USERNAME/$IMAGE:$1
 # push it
 docker push $USERNAME/$IMAGE:latest
