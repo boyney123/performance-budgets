@@ -21,8 +21,6 @@ A simple Docker container that takes your budgets and a given url then checks to
 
   <h3>Features: Run with one command, override lighthouse configuration, set budgets and more...</h3>
 
-[Read the Docs](https://lighthouse-budgets.netlify.com/) | [Edit the Docs](https://github.com/boyney123/lighthouse-budgets-docs)
-
 </div>
 
 <hr/>
