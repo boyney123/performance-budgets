@@ -1,6 +1,6 @@
 <div align="center">
 
-<h2>lighthouse-budgets: A tool to quickly check performance metrics against budgets.</h2>
+<h2>lighthouse-budgets: Check performance metrics against budgets.</h2>
 
 <p>
 A simple Docker container that takes your budgets and a given url then checks to see if your website is below the your budgets. Easy to use and great for CI.
