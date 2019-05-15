@@ -5,7 +5,7 @@ const path = require("path");
 const chalk = require("chalk");
 const log = console.log;
 
-const getBudgets = () => {
+const getLightHouseConfig = () => {
   // if running as Github action...
   if (process.env.GITHUB_WORKSPACE) {
     return fs.readJSONSync(process.env.GITHUB_WORKSPACE, "./github/lighthouse-budgets.json");
@@ -19,26 +19,19 @@ function launchChromeAndRunLighthouse(url, opts, config = null) {
     opts.port = chrome.port;
     opts.output = "json";
 
-    const { budgets, isExample } = getBudgets();
+    const { isCustom, ...lightHouseConfig } = getLightHouseConfig();
 
-    if (isExample) {
+    if (!isCustom) {
       console.log(`
 -------
-Using example configuration for budgets. 
-You can configure your own budgets, read the documentation for more information.
+Using example configuration for lighthouse. 
+You can configure your own lighthouse rules & budgets, read the documentation for more information.
 https://github.com/boyney123/lighthouse-budgets
 -------
       `);
     }
 
-    const test = {
-      extends: "lighthouse:full",
-      settings: {
-        budgets
-      }
-    };
-
-    return lighthouse(url, opts, test).then(results => {
+    return lighthouse(url, opts, lightHouseConfig).then(results => {
       return chrome.kill().then(() => results.lhr);
     });
   });
