@@ -184,7 +184,7 @@ If you have any questions, features or issues please raise any issue or pull req
 
 [spectrum-badge]: https://withspectrum.github.io/badge/badge.svg
 [spectrum]: https://spectrum.chat/explore-tech
-[license-badge]: https://img.shields.io/github/license/boyney123/lighthouse-budgets.svg?color=yellow
+[license-badge]: https://img.shields.io/github/license/boyney123/lighthouse-budgets.svg
 [license]: https://github.com/boyney123/lighthouse-budgets/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
