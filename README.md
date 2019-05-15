@@ -32,7 +32,7 @@ Lighthouse now supports budgets. To use this feature you can run this easily wit
 
 This tool was designed to help developers quickly run performance budgets against any given website. `lighthouse-budgets` allows to to focus on your code and the performance rather than the setup of the tools surrounding it.
 
-# Getting Started with default config
+## Getting Started with default config
 
 _Make sure you have docker running_
 
@@ -43,13 +43,13 @@ docker run --rm boyney123/lighthouse-budgets {url}
 docker run --rm boyney123/lighthouse-budgets https://example.com
 ```
 
-# Getting started with custom budgets or lighthouse configuration
+## Getting started with custom budgets or lighthouse configuration
 
 You can mount your own configuration file into the container to override the budgets and lighthouse configuration if you wish too.
 
 The easiest way to get started with an example is to follow these quick steps:
 
-## Clone the Repo
+### Clone the Repo
 
 ```sh
 git clone https://github.com/boyney123/lighthouse-budgets.git && cd lighthouse-budgets
@@ -62,11 +62,11 @@ docker run --rm -v $(pwd)/example/config:/usr/src/lighthouse-budgets/src/config 
 
 Change the `/example/config/lighthouse.json` file with the changes you want.
 
-## Understanding the budgets
+### Understanding the budgets
 
 With lighthouse you can set two types of budgets. Request counts and request size.
 
-### Sizes
+#### Sizes
 
 The `budget` values in the config are in `kb`.
 
@@ -118,7 +118,7 @@ The `budget` values in the config are in `kb`.
   ...
 ```
 
-### Counts
+#### Counts
 
 ```javascript
     ...
@@ -168,20 +168,20 @@ The `budget` values in the config are in `kb`.
   ...
 ```
 
-## Using as a GitHub Action
+### Using as a GitHub Action
 
 **TODO**
 
-# Tools
+## Tools
 
 - [lighthouse](https://github.com/GoogleChrome/lighthouse)
 - [chrome-launcher](https://github.com/GoogleChrome/chrome-launcher)
 
-## Testing
+### Testing
 
 - [jest](https://jestjs.io/)
 
-# Contributing
+## Contributing
 
 If you have any questions, features or issues please raise any issue or pull requests you like.
 
