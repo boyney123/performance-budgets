@@ -6,10 +6,6 @@
 A simple Docker container that takes your budgets and a given url then checks to see if your website is below the your budgets. Easy to use and great for CI.
 </p>
 
-[![Travis](https://img.shields.io/travis/boyney123/lighthouse-budgets/master.svg)](https://travis-ci.org/boyney123/lighthouse-budgets)
-[![CodeCov](https://codecov.io/gh/boyney123/lighthouse-budgets/branch/master/graph/badge.svg?token=AoXW3EFgMP)](https://codecov.io/gh/boyney123/lighthouse-budgets)
-[![MIT License][license-badge]][license]
-[![PRs Welcome][prs-badge]][prs]
 
   <hr />
 <h3>Check budgets with one command...</h3>
@@ -17,6 +13,12 @@ A simple Docker container that takes your budgets and a given url then checks to
 ```sh
 docker run --rm boyney123/lighthouse-budgets https://example.com
 ```
+
+[![Travis](https://img.shields.io/travis/boyney123/lighthouse-budgets/master.svg)](https://travis-ci.org/boyney123/lighthouse-budgets)
+[![CodeCov](https://codecov.io/gh/boyney123/lighthouse-budgets/branch/master/graph/badge.svg?token=AoXW3EFgMP)](https://codecov.io/gh/boyney123/lighthouse-budgets)
+[![MIT License][license-badge]][license]
+[![PRs Welcome][prs-badge]][prs]
+
 
   <p>Features: Set performance budgets, override lighthouse configuration, easily run on CI, and more... </p>
 
