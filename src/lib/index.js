@@ -85,6 +85,7 @@ const main = async () => {
       return Promise.reject("Budgets broken");
     }
 
+    log("All budgets passed. ✔");
     return Promise.resolve();
   } catch (error) {
     log(error);
