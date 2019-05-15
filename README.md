@@ -24,11 +24,11 @@ docker run --rm boyney123/lighthouse-budgets https://example.com
 
 <hr/>
 
-# The problem
+## The problem
 
 Lighthouse now supports budgets. To use this feature you can run this easily within a browser. But there is no easy way to run this on CI without creating your own docker image.
 
-# This solution
+## This solution
 
 This tool was designed to help developers quickly run performance budgets against any given website. `lighthouse-budgets` allows to to focus on your code and the performance rather than the setup of the tools surrounding it.
 
