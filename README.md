@@ -2,12 +2,7 @@
 
 <h2>lighthouse-budgets: keep an eye on request counts and file sizes</h2>
 
-<p>
-A simple Docker container that takes your budgets and a given url then checks to see if your website is below the your budgets. Easy to use and great for CI.
-</p>
 
-
-  <hr />
 <h3>Check budgets with one command...</h3>
 
 ```sh
