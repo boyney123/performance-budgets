@@ -3,7 +3,7 @@
 <h2>lighthouse-budgets: keep an eye on performance and set budgets</h2>
 
 
-<h3>Audit performance budgets with one command...</h3>
+<h3>Check performance budgets with one command...</h3>
 
 ```sh
 docker run --rm boyney123/lighthouse-budgets https://example.com
