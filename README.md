@@ -1,6 +1,6 @@
 <div align="center">
 
-<h2>performance-budgets: keep an eye on performance and set budgets</h2>
+<h2>performance-budgets: Keep your applications ⚡ with budgets</h2>
 
 
 ### _Check performance budgets with one command..._
