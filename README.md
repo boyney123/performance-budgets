@@ -2,7 +2,7 @@
 
 <h2>performance-budgets: Keep your apps ⚡ with budgets</h1>
 
-<p>No more excuses not to set performance budgets. performance-budgets gives you a simple way to check and stay on top of performance.</p>
+<p>No more excuses not to set performance budgets. performance-budgets gives you a simple way to check and stay on top of performance. Easy to run and configure with your custom budgets.</p>
 
   <hr />
 
