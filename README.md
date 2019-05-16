@@ -1,16 +1,16 @@
 <div align="center">
 
-<h2>lighthouse-budgets: keep an eye on performance and set budgets</h2>
+<h2>performance-budgets: keep an eye on performance and set budgets</h2>
 
 
 ### _Check performance budgets with one command..._
 
 ```sh
-docker run --rm boyney123/lighthouse-budgets https://example.com
+docker run --rm boyney123/performance-budgets https://example.com
 ```
 
-[![Travis](https://img.shields.io/travis/boyney123/lighthouse-budgets/master.svg)](https://travis-ci.org/boyney123/lighthouse-budgets)
-[![CodeCov](https://codecov.io/gh/boyney123/lighthouse-budgets/branch/master/graph/badge.svg?token=AoXW3EFgMP)](https://codecov.io/gh/boyney123/lighthouse-budgets)
+[![Travis](https://img.shields.io/travis/boyney123/performance-budgets/master.svg)](https://travis-ci.org/boyney123/performance-budgets)
+[![CodeCov](https://codecov.io/gh/boyney123/performance-budgets/branch/master/graph/badge.svg?token=AoXW3EFgMP)](https://codecov.io/gh/boyney123/performance-budgets)
 [![MIT License][license-badge]][license]
 [![PRs Welcome][prs-badge]][prs]
 
@@ -27,17 +27,17 @@ Lighthouse now supports budgets. To use this feature you can run this easily wit
 
 ## This solution
 
-This tool was designed to help developers quickly run performance budgets against any given website. `lighthouse-budgets` allows to to focus on your code and the performance rather than the setup of the tools surrounding it.
+This tool was designed to help developers quickly run performance budgets against any given website. `performance-budgets` allows to to focus on your code and the performance rather than the setup of the tools surrounding it.
 
 ## Getting Started with default config
 
 _Make sure you have docker running_
 
 ```sh
-docker run --rm boyney123/lighthouse-budgets {url}
+docker run --rm boyney123/performance-budgets {url}
 
 #example
-docker run --rm boyney123/lighthouse-budgets https://example.com
+docker run --rm boyney123/performance-budgets https://example.com
 ```
 
 ## Getting started with custom budgets or lighthouse configuration
@@ -49,12 +49,12 @@ The easiest way to get started with an example is to follow these quick steps:
 ### Clone the Repo
 
 ```sh
-git clone https://github.com/boyney123/lighthouse-budgets.git && cd lighthouse-budgets
+git clone https://github.com/boyney123/performance-budgets.git && cd performance-budgets
 ```
 
 ```sh
 # Run the container with a custom config file.
-docker run --rm -v $(pwd)/example/config:/usr/src/lighthouse-budgets/src/config boyney123/lighthouse-budgets https://example.com
+docker run --rm -v $(pwd)/example/config:/usr/src/performance-budgets/src/config boyney123/performance-budgets https://example.com
 ```
 
 Change the `/example/config/lighthouse.json` file with the changes you want.
@@ -184,16 +184,16 @@ If you have any questions, features or issues please raise any issue or pull req
 
 [spectrum-badge]: https://withspectrum.github.io/badge/badge.svg
 [spectrum]: https://spectrum.chat/explore-tech
-[license-badge]: https://img.shields.io/github/license/boyney123/lighthouse-budgets.svg
-[license]: https://github.com/boyney123/lighthouse-budgets/blob/master/LICENSE
+[license-badge]: https://img.shields.io/github/license/boyney123/performance-budgets.svg
+[license]: https://github.com/boyney123/performance-budgets/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
-[github-watch-badge]: https://img.shields.io/github/watchers/boyney123/lighthouse-budgets.svg?style=social
-[github-watch]: https://github.com/boyney123/lighthouse-budgets/watchers
-[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20lighthouse-budgets%20by%20%40boyney123%20https%3A%2F%2Fgithub.com%2Fboyney123%2Flighthouse-budgets%20%F0%9F%91%8D
-[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/boyney123/lighthouse-budgets.svg?style=social
-[github-star-badge]: https://img.shields.io/github/stars/boyney123/lighthouse-budgets.svg?style=social
-[github-star]: https://github.com/boyney123/lighthouse-budgets/stargazers
+[github-watch-badge]: https://img.shields.io/github/watchers/boyney123/performance-budgets.svg?style=social
+[github-watch]: https://github.com/boyney123/performance-budgets/watchers
+[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20performance-budgets%20by%20%40boyney123%20https%3A%2F%2Fgithub.com%2Fboyney123%2Fperformance-budgets%20%F0%9F%91%8D
+[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/boyney123/performance-budgets.svg?style=social
+[github-star-badge]: https://img.shields.io/github/stars/boyney123/performance-budgets.svg?style=social
+[github-star]: https://github.com/boyney123/performance-budgets/stargazers
 
 # Donating
 

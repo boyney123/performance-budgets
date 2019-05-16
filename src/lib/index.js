@@ -21,7 +21,7 @@ function launchChromeAndRunLighthouse(url, opts, config = null) {
 -------
 Using example configuration for lighthouse. 
 You can configure your own lighthouse rules & budgets, read the documentation for more information.
-https://github.com/boyney123/lighthouse-budgets
+https://github.com/boyney123/performance-budgets
 -------
       `);
     }

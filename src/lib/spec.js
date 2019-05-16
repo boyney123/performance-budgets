@@ -33,7 +33,7 @@ const buildBudgetData = (item = { label: "Third-Party", requestCount: 1 }) => ({
 
 let processExit, processArgv;
 
-describe("lighthouse-budgets", () => {
+describe("performance-budgets", () => {
   beforeAll(() => {
     processArgv = process.argv;
   });

@@ -2,7 +2,7 @@ FROM node:10-slim
 
 LABEL maintainer="David Boyne <boyney123@>"
 
-WORKDIR /usr/src/lighthouse-budgets
+WORKDIR /usr/src/performance-budgets
 
 # Install latest chrome dev package.
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
@@ -12,8 +12,8 @@ RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key
     && rm -rf /var/lib/apt/lists/* \
     && rm -rf /src/*.deb
 
-COPY src /usr/src/lighthouse-budgets/src
-COPY package.json /usr/src/lighthouse-budgets
+COPY src /usr/src/performance-budgets/src
+COPY package.json /usr/src/performance-budgets
 
 RUN npm install
 

@@ -3,7 +3,7 @@ set -ex
 # docker hub username
 USERNAME=boyney123
 # image name
-IMAGE=lighthouse-budgets
+IMAGE=performance-budgets
 # run build
 docker build -t $USERNAME/$IMAGE:latest .
 # tag it
