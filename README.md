@@ -1,6 +1,10 @@
 <div align="center">
 
-<h1>performance-budgets: Keep your apps ⚡ with budgets</h1>
+<h2>performance-budgets: Keep your apps ⚡ with budgets</h1>
+
+<p>No more excuses not to set performance budgets. performance-budgets gives you a simple way to check and stay on top of performance.</p>
+
+  <hr />
 
 [![Travis](https://img.shields.io/travis/boyney123/performance-budgets/master.svg)](https://travis-ci.org/boyney123/performance-budgets)
 [![CodeCov](https://codecov.io/gh/boyney123/performance-budgets/branch/master/graph/badge.svg?token=AoXW3EFgMP)](https://codecov.io/gh/boyney123/performance-budgets)
