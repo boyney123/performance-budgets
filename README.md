@@ -16,6 +16,8 @@ docker run --rm boyney123/performance-budgets https://example.com
 
 
   <p>Features: Set performance budgets, override lighthouse configuration, easily run on CI, and more... </p>
+  
+  [Read the Docs](https://performance-budgets.netlify.com/) | [Edit the Docs](https://github.com/boyney123/performance-budgets)
 
 </div>
 
