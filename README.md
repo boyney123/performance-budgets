@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>performance-budgets: Keep your applications ⚡ with budgets</h1>
+<h2>performance-budgets: Keep your applications ⚡ with budgets</h2>
 
 [![Travis](https://img.shields.io/travis/boyney123/performance-budgets/master.svg)](https://travis-ci.org/boyney123/performance-budgets)
 [![CodeCov](https://codecov.io/gh/boyney123/performance-budgets/branch/master/graph/badge.svg?token=AoXW3EFgMP)](https://codecov.io/gh/boyney123/performance-budgets)
